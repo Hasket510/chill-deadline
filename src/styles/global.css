@@ -1,0 +1,37 @@
+html,
+body {
+	max-width: 100vw;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+body {
+	font-family: 'Open Sans', system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	font-family: inherit;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
