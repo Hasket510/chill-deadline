@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+	/* Светлая тема (дефолт) */
+	--color-background: #f8f9fa;
+	--color-foreground: #1a1a1a;
+	--color-card: #ffffff;
+	--color-card-foreground: #1a1a1a;
+	--color-muted: #f0f0f0;
+	--color-muted-foreground: #666666;
+	--color-border: #e0e0e0;
+
+	/* Статусы */
+	--color-success: #2e7d32;
+	--color-error: #c62828;
+	--color-warning: #ed6c02;
+	--color-warning-foreground: #1a1a1a;
+
+	--color-primary: #3b82f6;
+	--color-primary-foreground: #ffffff;
+}
+
+/* Тёмная тема */
+@layer base {
+	.dark {
+		--color-background: #121212;
+		--color-foreground: #e0e0e0;
+		--color-card: #1e1e1e;
+		--color-card-foreground: #e0e0e0;
+		--color-muted: #282828;
+		--color-muted-foreground: #a0a0a0;
+		--color-border: #2c2c2c;
+
+		--color-success: #81c784;
+		--color-error: #e57373;
+		--color-warning: #ffb74d;
+		--color-warning-foreground: #121212;
+
+		--color-primary: #60a5fa;
+		--color-primary-foreground: #121212;
+	}
+}
